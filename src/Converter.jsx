@@ -85,6 +85,7 @@ const MorseConverter = () => {
     const convertToMorse = () => {
         const map = lang === "fa" ? morseMapFa : morseMapEn;
         const converted = textToConvert
+            .toLowerCase()
             .split(" ")
             .map(word => word.split("").map(char => map[char] || "").join(" "))
             .join(" / ");
