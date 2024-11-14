@@ -15,7 +15,6 @@ import {
     Typography
 } from "@mui/material";
 import { ContentCopy } from "@mui/icons-material";
-import "@fontsource/vazirmatn";
 
 const morseMapEn = {
     a: ".-",
